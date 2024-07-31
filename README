@@ -11,3 +11,6 @@
 - [ ] File Systems
 - [ ] mmap
 
+Steps to setup Development Environment:
+step-1: docker-compose up --build
+step-2: docker exec -it <container-id> bash
