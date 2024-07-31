@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  riscv-tools:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mit-riscv-tools
+    tty: true
+    volumes:
+      - .:/home/labadmin/karthi/personal/mit-operating-system/workspace
+    working_dir: /home/labadmin/karthi/personal/mit-operating-system/workspace
+    user: user
+
