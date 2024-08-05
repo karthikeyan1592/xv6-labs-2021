@@ -1,6 +1,6 @@
 # Task List
 
-- [ ] Lab Utils
+- [x] Lab Utils
 - [ ] Syscall
 - [ ] PageTables
 - [ ] Traps
