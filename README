@@ -12,8 +12,7 @@
 - [ ] mmap
 
 Steps to setup Development Environment:
-step-1: docker-compose up --build
-step-2: docker exec -it <container-id> bash
+bash build_environment.sh
 
 SYSCALL:
 Trace: https://github.com/karthikeyan1592/xv6-labs-2021/commit/52aa3c7b4c75911a48bc46ede8b450d270c34f0f
