@@ -25,4 +25,4 @@ else
 fi
 
 # Run docker-compose up
-docker-compose up
+docker compose up
