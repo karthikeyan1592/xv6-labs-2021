@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  riscv-tools:
+    image: riscv-tools:latest  # Ensure this matches the Docker image name
+    container_name: xv6-riscv
+    tty: true
+    volumes:
+      - .:/home/xv6user/workspace  # Mount the current directory to the new workspace directory
+    working_dir: /home/xv6user/workspace  # Set the working directory to the new workspace directory
+    user: xv6user  # Ensure this matches the user created in the Dockerfile
