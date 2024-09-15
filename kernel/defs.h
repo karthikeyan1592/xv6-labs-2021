@@ -179,6 +179,7 @@ void            plic_complete(int);
 
 //vm.c
 void            vmprint(pagetable_t);
+pte_t *         walk(pagetable_t, uint64, int);
 
 // virtio_disk.c
 void            virtio_disk_init(void);
