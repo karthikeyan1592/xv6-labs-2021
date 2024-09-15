@@ -1,8 +1,8 @@
 # Task List
 
 - [x] Lab Utils
-- [ ] Syscall
-- [ ] PageTables
+- [x] Syscall
+- [x] PageTables
 - [ ] Traps
 - [ ] COW
 - [ ] Multithreading
@@ -15,4 +15,12 @@ Steps to setup Development Environment:
 bash build_environment.sh
 
 SYSCALL:
+LAB: https://pdos.csail.mit.edu/6.S081/2021/labs/syscall.html
 Trace: https://github.com/karthikeyan1592/xv6-labs-2021/commit/52aa3c7b4c75911a48bc46ede8b450d270c34f0f
+SysInfo: https://github.com/karthikeyan1592/xv6-labs-2021/commit/c5878925ed69f54c13b919d496fb037aa2bd5652
+
+Pagetable:
+LAB: https://pdos.csail.mit.edu/6.S081/2021/labs/pgtbl.html
+ugetpid: https://github.com/karthikeyan1592/xv6-labs-2021/commit/3231b4e67fe3f689c547da42cbda488b0e7bcd26
+vmprint: https://github.com/karthikeyan1592/xv6-labs-2021/commit/a6b8835d8d68e92a1546cb9136ea1ee882bee8d4
+sys_pgaccess: https://github.com/karthikeyan1592/xv6-labs-2021/commit/d1541dc421df2bebbed6889efe51b9b7b1a6cb93
